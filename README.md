@@ -40,7 +40,14 @@ The objective of this project is to:
 
 
 📊 Key KPIs
-| KPI | Value | |------|------| | Total Employees | 1470 | | Total Attrition | 237 | | Attrition Rate | 16.1% | | Average Age | 37 | | Average Salary | 6.5K | | Average Years at Company | 7.0 |
+| KPI | Value | 
+|------|------| 
+| Total Employees | 1470 | 
+| Total Attrition | 237 | 
+| Attrition Rate | 16.1% | 
+| Average Age | 37 | 
+| Average Salary | 6.5K | 
+| Average Years at Company | 7.0 |
 
 
 📈 Key Insights
@@ -87,10 +94,13 @@ Some important DAX calculations used in the project:
 
 Attrition Rate = 
 DIVIDE([Attrition Count], [Total Employees]) * 100
+
 Average Salary = 
 AVERAGE(Employee[MonthlyIncome])
+
 Total Employees = 
 COUNT(Employee[EmployeeNumber])
+
 Attrition Count = 
 CALCULATE(COUNT(Employee[Attrition]), Employee[Attrition] = "Yes")
 
