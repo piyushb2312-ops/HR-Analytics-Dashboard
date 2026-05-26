@@ -124,3 +124,6 @@ Conduct:
 
 ✅ Department-Level HR Strategies
 Create customized retention strategies for departments with high attrition.
+
+📷 Dashboard Preview
+Show what the dashboard look like :- 
