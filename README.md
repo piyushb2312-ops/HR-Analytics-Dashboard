@@ -126,4 +126,4 @@ Conduct:
 Create customized retention strategies for departments with high attrition.
 
 📷 Dashboard Preview
-Show what the dashboard look like :- 
+Show what the dashboard look like :- https://github.com/piyushb2312-ops/HR-Analytics-Dashboard/blob/main/HR%20Analytics%20Dashboard.png
