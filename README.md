@@ -39,6 +39,7 @@ The objective of this project is to:
 ✅ Interactive Visualizations
 
 
+
 📊 Key KPIs
 | KPI | Value | 
 |------|------| 
@@ -74,7 +75,6 @@ The dashboard allows dynamic filtering across:
 - Human Resources
 - Research & Development
 - Sales
-
 to compare workforce trends across departments.
 
 
@@ -87,6 +87,7 @@ Data preprocessing was performed using Power Query, including:
 - Removing inconsistencies
 - Creating calculated fields
 - Data formatting and transformation
+
 
 
 🧠 DAX Measures Used
