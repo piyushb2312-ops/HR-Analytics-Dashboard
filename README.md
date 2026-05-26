@@ -48,25 +48,20 @@ The objective of this project is to:
 🔹 Attrition by Age Group
 - Highest attrition is observed in the 26–35 age group.
 - Younger employees are more likely to leave the organization.
-  
 🔹 Attrition by Salary
 - Majority of attrition comes from employees earning below 5K salary slab.
 - Lower salary range employees show higher turnover risk.
-
 🔹 Attrition by Job Role
 Top affected job roles:
 - Laboratory Technician
 - Sales Executive
 - Research Scientist
 - Sales Representative
-
 🔹 Attrition by Education
 Employees from:
 - Life Sciences
 - Medical
 - Marketing
-- 
-
 🔹 Department Analysis
 The dashboard allows dynamic filtering across:
 - Human Resources
@@ -92,13 +87,10 @@ Some important DAX calculations used in the project:
 
 Attrition Rate = 
 DIVIDE([Attrition Count], [Total Employees]) * 100
-
 Average Salary = 
 AVERAGE(Employee[MonthlyIncome])
-
 Total Employees = 
 COUNT(Employee[EmployeeNumber])
-
 Attrition Count = 
 CALCULATE(COUNT(Employee[Attrition]), Employee[Attrition] = "Yes")
 
